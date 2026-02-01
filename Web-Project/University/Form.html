@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <h1> Student Registration Form</h1>
+    <a href="index.html" target="_blank">Home</a>
+    <a href="course.html" target="_blank">Course</a>
+    </header>
+    <form>
+        <h3> Personal Info</h3>
+        <label type="text">Name:</label> 
+        Name: <input type="text" name="Name" placeholder="Enter">
+
+        <br>
+
+        <label type="text">Password:</label> <input type="password" name="password" placeholder="Enter Passkey">
+        <br>
+
+        <label type="text">Email:</label> <input type="email" name="Email" placeholder="Enter Email">
+        <br>
+
+        <label type="text">DOB:</label> <input type="date" name="DOB" placeholder="Enter DOB">
+        <br>
+
+        <label type="text">Number:</label>  <input type="number" name="number" placeholder="Enter number">
+        <br>
+
+        <label type="text">Gender:</label> Male: <input type="radio" name="Gender" value="Male">
+        Female: <input type="radio" name="Gender" value="Female">
+        <br>
+
+        <label type="text">Address:</label>
+        <br>
+        <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter Your Address"></textarea>
+
+
+        <h3> Academic Details</h3>
+        <label type="text">Program:</label>
+        <select id="Program" name="Program">
+            <option value="CS">Computer Science</option>
+            <option value="Bs">Business</option>
+            <option value="AR">Arts</option>
+            <option value="Es">Engineering</option>
+        </select>
+
+        <br>
+        <label type="text">Semester:</label>
+        <select id="Semester" name="Semester">
+            <option value="1">1st</option>
+            <option value="2">2nd</option>
+            <option value="3">3rd</option>
+            <option value="4">4th</option>
+            <option value="4">5th</option>
+            <option value="4">6th</option>
+        </select>
+
+        <br> 
+        <label type="text">Level:</label>
+        Undergrad<input type="radio" name="levels" value="UG">
+        Postgrad<input type="radio" name="levels" value="PG">
+        
+        <br>
+        <label type="text">Interest</label>
+        Web Development: <input type="checkbox" name="interest" value="web">
+        Data Science: <input type="checkbox" name="interest" value="DS">
+        AI: <input type="checkbox" name="interest" value="ai">
+        CyberSecurity: <input type="checkbox" name="interest" value="Cyber">
+
+        <br>
+        <h3> Course Selection</h3>
+
+
+        <label type="text">Choose Course</label>
+        <br>
+        <select for=""myListBox" id="mylist" sizes="4" multiple>
+            
+            <option values="o1">Intro Programming</option>
+            <option values="o2">Web Devlopment</option>
+            <option values="o3">AI</option>
+            <option values="o4">CS</option>
+
+        </select>
+
+
+
+
+    </form>
+
+
+    
+</body>
+</html>

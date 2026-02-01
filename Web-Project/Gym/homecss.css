@@ -1,0 +1,565 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Tapestry', cursive;
+}
+body{
+    background-color: black ;
+    justify-content: center;
+}
+.hero{
+    height: 110vh;
+    width: 100%;
+    background-image: url(./background.png);
+    background-size:cover;
+    background-position: center;
+}
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.logoimg{
+    width: 190px;
+    margin-left: 10px;
+   margin-top: 10px;
+}
+.logo{
+    margin-top:-80px;
+    margin-left: 160px;
+   color: white;
+   font-size: 80px;
+   font-weight: bolder;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+.inside{
+    color: #ff751a;
+}
+.lol{
+    margin-left: 0%;
+}
+nav div ul li{
+    margin-bottom: 100px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+.jol{
+    margin-left: 400px;
+    font-size: 18px;
+}
+#hol{
+    margin-left: 1049px;  
+    margin-top: -140px;
+    font-size: 25px;
+}
+nav div ul span li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav div ul div li a{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    background-color: #ff6600 ;
+    border: 6px solid transparent;
+    text-decoration: none;
+    padding: 2px 1px;
+    font-weight: bolder;
+    border-radius:30px;
+    
+}
+
+/* Now Hover */
+
+nav div ul span li a:hover{
+    color: #ff6600;
+    transition:.4s;
+    
+}
+nav div ul div li a:hover{
+    font-weight: bold;
+    color:#ff6600;
+    background-color:black ;
+    border: 6px solid transparent;
+    text-decoration: none;
+    padding: 2px 1px;
+    font-weight: bolder;
+    border-radius:30px; 
+    transform:scale(1.2);
+    transition: transform .4s; 
+}
+.content{
+    color: aliceblue;
+    margin-top: 80px;
+    margin-left: 190px;
+}
+#aa{
+    font-size: 130px;
+    color:#ff751a;
+    letter-spacing: 5px;
+    margin-left: -50px;
+    position: unset;
+    font-family: 'Bebas Neue', cursive;
+}
+h3{
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin-top: -100px;
+    margin-left: 105px;
+    font-family: 'Bebas Neue', cursive;
+}
+#ac{
+    color:#ff751a ;
+    letter-spacing: 5px;
+    font-size: 80px;
+    margin-left: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+#ad{
+    letter-spacing: 5px;
+    font-size: 130px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 0px;
+    margin-left: -130px;
+}
+#ae{
+    letter-spacing: 5px;
+    font-size: 80px;
+    margin-left: -10px;
+    font-family: 'Bebas Neue', cursive;
+}
+#af{
+    font-size: 90px;
+    margin-left: 20px;
+    color: #ff751a;
+    font-family: 'Bebas Neue', cursive;
+}
+#slog{
+    color: #ff751a;
+}
+.goku{
+    margin-top: 50px;
+    float: left;
+    margin-left: -100px;
+   width: 500px;
+}
+
+#nod{
+
+margin-top:20px;
+padding: 20px;
+word-spacing: 100px;
+font-size: 120px;
+margin-left: 70px;
+font-family: 'Bebas Neue', cursive;
+}
+#noe{
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 0px ;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+#nof{
+    margin-left: -120px;
+    letter-spacing: 5px;
+    font-size: 100px;
+    padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+#lello{
+    margin-left: 0px;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+.don{
+    font-family: 'Bebas Neue', cursive;
+    color:#ff751a;
+    letter-spacing: 5px;
+    font-size: 80px;
+}
+.eon{
+    font-family: 'Bebas Neue', cursive;
+    color:#ff751a;
+    padding: 10px;
+    letter-spacing: 5px;
+    font-size: 80px;
+}
+.fon{
+    font-family: 'Bebas Neue', cursive;
+    color:#ff751a;
+    letter-spacing: 5px;
+    font-size: 150px;
+}
+.model{
+    margin-top: 0px;
+}
+.modea{
+    margin-top: -120px;
+}
+.modeb{
+    margin-top: -180px;
+}
+.features{
+    margin-top: 1000px;
+    font-size: 80px;
+    margin-left: 400px;
+    background-color:white;
+    border-radius: 30px;
+    letter-spacing: 5px;
+    margin-right: 595px;
+}
+._adi{
+    color:#ff6600;
+    font-family: 'Koulen', cursive;
+}
+#joko{
+    color:black;    
+    font-family: 'Koulen', cursive;
+}
+
+
+        /* Image Facility */
+
+
+.fac{
+    position: relative;
+    margin-left: 40px;
+    margin-right: 20px;
+    display:inline-flex ;
+    justify-content:space-between;
+}
+.ioi{
+    width: 250px;
+    clip-path: circle();
+}
+.iou{
+    width: 250px;
+    clip-path: circle();
+    margin-left:60px ;
+    margin-right:60px ;
+}
+.ioy{
+    width: 250px;
+    clip-path: circle();
+    margin-right: 60px;
+}
+.iot{
+    width: 250px;
+    clip-path: circle();
+}
+
+
+/* Writen Facilities */
+
+#write{
+    margin-top: -50px;
+    color:white;
+    margin-left: 550px;
+}
+
+.loc{
+    font-family: 'Koulen';
+    font-size: 45px;
+    border-radius: 30px;
+}
+.lod{
+    font-family: 'Koulen';
+    font-size: 45px;
+    border-radius: 30px;
+    margin-left:200px;
+}
+.loe{
+     font-family: 'Koulen';
+    font-size: 45px;
+    border-radius: 30px;
+    margin-left:160px;
+}
+.lof{
+    font-family: 'Koulen';
+    font-size: 45px;
+    border-radius: 30px;
+    margin-left: 85px;
+}
+
+/* TODO */
+
+.to_do{
+    margin-top: -232px;
+    font-size: 80px;
+    background-color:white;
+    border-radius: 30px;
+    letter-spacing: 5px;
+    margin-right: 505px;
+    margin-left: 640px;
+}
+._ida{
+    color:black;
+    font-family: 'Koulen', cursive;
+}
+.dolli{
+    font-size: 90px;
+    margin-top: 100px;
+    margin-left: 520px
+}
+#okoj{
+    color:#ff6600;    
+    font-family: 'Koulen', cursive;
+}
+
+/* TRAINNING */
+
+        /* Image Facility */
+
+
+        .kitu{
+            position: relative;
+            margin-left: 0px;
+            margin-right: 0px;
+            display:inline-flex ;
+            justify-content:space-between;
+        }
+        .qwe{
+            width: 300px;
+            clip-path: circle();
+        }
+        .wer{
+            width: 300px;
+            clip-path: circle();
+            margin-left:20px ;
+            margin-right:20px ;
+        }
+        .ert{
+            width: 300px;
+            clip-path: circle();
+            margin-right: 20px;
+        }
+        .rty{
+            width: 300px;
+            clip-path: circle();
+        }
+        
+        
+        /* Writen Facilities */
+        
+        #utik{
+            margin-top: 20px;
+            color:white;
+        }
+        
+        .ewq{
+            font-family: 'Koulen';
+            font-size: 45px;
+            border-radius: 30px;
+            margin-left:90px;
+        }
+        .rew{
+            font-family: 'Koulen';
+            font-size: 45px;
+            border-radius: 30px;
+            margin-left:165px;
+        }
+        .tre{
+             font-family: 'Koulen';
+            font-size: 45px;
+            border-radius: 30px;
+            margin-left:130px;
+        }
+        .ytr{
+            font-family: 'Koulen';
+            font-size: 45px;
+            border-radius: 30px;
+            margin-left: 115px;
+        }
+        
+        /* Location*/
+        .location{
+            background-color:#ff6600;
+            border-radius: 20px;
+            margin-right: 876px;
+            margin-top: -180px;
+            margin-left: 230px;
+        }
+        .loc{
+            margin-left: -450px;
+            margin-top: 50px;   
+        }
+        .masala{
+            color: white;
+            font-family: 'Koulen', cursive;
+            word-spacing: 2px;
+            font-size: 100px;
+            margin-left: 500px;
+        }
+        #alasam{
+            color: black;
+            font-size: 100px;
+            margin-left: 4px;
+            font-family: 'Koulen', cursive;
+        }
+        .loop{
+            margin-left: 20px;
+            margin-top: 50px;
+            
+        }
+
+    /* Timing */
+
+       #gogo{
+           color:#ff751a;
+           font-family: 'Koulen';
+           font-size: 130px;
+           margin-left: 900px;
+           margin-top: -460px;
+       }
+
+       #dodo{
+        color: white;
+        margin-left: 850px;
+        font-size: 45px;
+        font-family: 'Koulen';
+       }
+
+       #aoao{
+        color: white;
+        font-family: 'Koulen';
+        margin-left: 850px;
+        font-size: 45px;
+       }
+
+       #bobo{
+        color:#ff6600;
+        font-family: 'Koulen';
+        margin-left: 960px;
+        font-size: 45px;
+       }
+
+/* End Content */       
+
+       .endholl{
+        background-color:#000000;
+        text-decoration: none;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+        .kunal{
+                text-decoration:none;
+                color: white;
+                font-size: 25px;
+                letter-spacing: 2px;
+                font-family: 'Koulen'; 
+        }
+    
+       .frozen :hover{
+        text-decoration: none;
+        color:#ff6600;
+       }
+
+       /* Contact */
+       #Contact{
+        margin-top: 20px;
+        margin-left: 60px;
+        color:#ff6600;
+       font-family: 'Koulen';   
+       letter-spacing: 2px;
+       font-size: 45px;
+   }
+   .Montact{
+    margin-left: 230px;
+    color:#ff6600;
+   font-family: 'Koulen';   
+   letter-spacing: 2px;
+   font-size: 45px;
+}
+.Nontact{
+    margin-left: 250px;
+    color:#ff6600;
+   font-family: 'Koulen';   
+   letter-spacing: 2px;
+   font-size: 45px;
+}
+
+
+
+.loodu{
+    background-color:#000000;
+    text-decoration: none;
+    margin-left: 450px;
+    margin-top: -200px;
+}
+
+    .bolaprasad{
+            text-decoration:none;
+            color: white;
+            font-size: 25px;
+            letter-spacing: 2px;
+            margin-left: -120px;
+            font-family: 'Koulen'; 
+    }
+
+   .ganja :hover{
+    text-decoration: none;
+    color:#ff6600;
+   }
+
+
+   .goodu{
+    background-color:#000000;
+    text-decoration: none;
+    margin-left: 950px;
+    margin-top: -150px;
+}
+
+   .fa {
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 60%;
+  }
+  
+  .fa:hover {
+      opacity: 0.2;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    margin-left: -120px;
+    margin-top: 30px;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    margin-left: 90px;
+    margin-top:-300px;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #ff00ee;
+    margin-top: -200px;
+    margin-left: -25px;
+    margin-top: 0px;
+    color: white;
+  }
+
+  .cppy{
+      color: white;
+      margin-left:20px;
+      font-weight: bolder;
+      font-size: 30px;
+  }
+  .mggp{
+    color: white;
+    margin-left:900px;
+    font-size: 20px;
+    font-family: 'Koulen'; 
+}
